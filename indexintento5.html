@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/css5.css">
+    <title>Mi Portfolio</title>
+</head>
+<body>
+    <!--encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JA</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--seccion inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/thorformal.webp" alt="">
+            </div>
+            <h1>Dios del Trueno</h1>
+            <h2>Desarrollador web fullstack developer</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--seccion sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Thor, Dios del trueno</span>Lorem ipsum dolor sit,
+            amet consectetur adipisicing elit. Possimus hic fugiat tenetur
+            omnis animi molestias? Nemo distinctio rerum fuga? Sapiente 
+            consequatur omnis voluptatum, fuga sed distinctio!</p>
+        
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            22-1-1222
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            123 455 6548
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            thunderwarrior@asgardmail.com
+                        </li>
+                        <li>
+                            <strong>Sitio Web</strong>
+                            www.elruidodeltrueno.com.asg
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Castillo 1, Asgard
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Rayologo</span>
+                        </li>
+                    </ul>
+                </div>  
+
+                <!--inetereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-cloud-bolt"></i>
+                            <span>Energia</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane-departure"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-paintbrush"></i>
+                            <span>Arte</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-bicycle"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <span>Edición</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-file-arrow-down"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--seccion skills-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Habilidades tecnicas-->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Oficce</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Habilidades Profesionales-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo independiente</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--seccion curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>ingeniería mecánica</h4>
+                        <span class="casa">Instituto de Estudios Nórdicos de Asgard</span>
+                        <span class="fecha">2000 - 2003</span>
+                        <p>disciplina que se enfoca en el diseño, análisis, manufactura y
+                        mantenimiento de sistemas mecánicos, como motores, máquinas, 
+                        herramientas y sistemas de energía.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>ingeniería mecánica</h4>
+                        <span class="casa">Instituto de Estudios Nórdicos de Asgard</span>
+                        <span class="fecha">2000 - 2003</span>
+                        <p>disciplina que se enfoca en el diseño, análisis, manufactura y
+                        mantenimiento de sistemas mecánicos, como motores, máquinas, 
+                        herramientas y sistemas de energía.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>ingeniería mecánica</h4>
+                        <span class="casa">Instituto de Estudios Nórdicos de Asgard</span>
+                        <span class="fecha">2000 - 2003</span>
+                        <p>disciplina que se enfoca en el diseño, análisis, manufactura y
+                        mantenimiento de sistemas mecánicos, como motores, máquinas, 
+                        herramientas y sistemas de energía.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Diseño estructuras web</h4>
+                        <span class="casa">La web del rayo</span>
+                        <span class="fecha">2015 - 2023</span>
+                        <p>disciplina que se enfoca en el diseño, análisis, manufactura y
+                        mantenimiento de sistemas mecánicos, como motores, máquinas, 
+                        herramientas y sistemas de energía.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Diseño estructuras web</h4>
+                        <span class="casa">La web del rayo</span>
+                        <span class="fecha">2015 - 2023</span>
+                        <p>disciplina que se enfoca en el diseño, análisis, manufactura y
+                        mantenimiento de sistemas mecánicos, como motores, máquinas, 
+                        herramientas y sistemas de energía.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Diseño estructuras web</h4>
+                        <span class="casa">La web del rayo</span>
+                        <span class="fecha">2015 - 2023</span>
+                        <p>disciplina que se enfoca en el diseño, análisis, manufactura y
+                        mantenimiento de sistemas mecánicos, como motores, máquinas, 
+                        herramientas y sistemas de energía.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion Portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="imagenes/fotos-gratis-de-stock-1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/chica camara.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/notebook.avif" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/programa.avif" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/robotica.avif" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/IA.avif" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Secion contacto-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Numero de Telefono">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Consulta">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--mapa-->
+                <div class="col">
+                    <img src="imagenes/mapa2.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Asgard, Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                123 455 6548
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                www.elruidodeltrueno.com.asg
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="intento5.js"></script>
+</body>
+</html>
